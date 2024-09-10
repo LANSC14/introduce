@@ -1,0 +1,100 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+<style>
+     body{
+     	margin: 0;
+     	padding: 0;
+     }        
+     header{
+     	text-align: center;
+     	background-color: pink;
+     	padding: 20px;
+     }
+     nav{
+     	display: flex;
+     	flex-direction: row;
+     	background-color: pink;
+     }
+
+     nav a{
+     	color: white;
+     	padding: 14px 20px;
+     	text-decoration: none;
+
+     }
+
+ .container
+ {
+ 	display: flex;
+ 	flex-wrap: ;
+ }   
+
+aside{
+	flex: 30px;
+	background-color: beige;
+	padding: 20px;
+}
+
+section{
+	flex: 30px;
+	background-color: khaki;
+	padding: 20px;
+}
+
+footer{
+	background-color: gray;
+	padding: 10px;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px){
+	nav,.container{
+flex-direction: column;
+    }
+}
+
+</style>
+</head>
+<title>css layout </title>
+<body>
+<header><h1>關於我的事</h1></header>
+<nav>
+
+<a href="class.html" target="_blank"> <p>課表</p>
+</a>
+<a href="interest.html" target="_blank"> <p>我的興趣</p> </a>
+<a href="skill.html" target="_blank"> <p>我的技能</p> </a>
+</nav>
+<div class="container">
+     <aside><h2><ol>
+     	<p>我的興趣與專長</p>
+<li>圍棋</li>
+<li>柔道</li>
+<li>看小說</li>
+<li>跑山</li>
+<li>打籃球</li>
+<li>跑步</li>
+<li>吃各種美食</li>
+<li>打電動</li>
+<li>睡覺</li>
+</ol></h2></aside>
+
+     <section><h2><ul>
+	<li>出生於台北市文山區偏鄉地區(木柵)</li>
+	<li>畢業於新店高中</li>
+	<li>高中時期擔任康輔社 副社長兼公關長</li>
+    <li>目前就讀淡江大學資訊與圖書館學系</li>
+    <li>我是個熱心外向且活潑的人</li>
+    
+
+</ul></h2></section>
+
+</div>
+
+<footer><h2><img src="C:\Users\sean1\OneDrive\桌面\photo/me.jpg" width="25%" height="25%"></h2></footer>
+
+</body>	
+</html>
